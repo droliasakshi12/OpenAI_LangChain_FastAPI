@@ -17,7 +17,7 @@ This app includes **UI Interaction**  using **Streamlit**
 Make sure you have Python installed (>=3.9 recommended).
 You’ll also need to install dependencies listed in `requirements.txt`.
 
-###  1. Create a virtual environment
+###  1. 🌐Create a virtual environment
 ``` bash
 python -m venv venv
 ```
@@ -29,16 +29,8 @@ Venv\Scripts\activate
 ### 2. 🔃Install dependencies 
 ``` bash
 pip install -r requirements.txt
-```
-# Server.py 
-- Adding routes with the use of langserve
-  ``` bash
-  add_routes(
-    app,
-    ChatOpenAI(),
-    path  = "/openai")
-  ```
-### 3. To run 
+```  
+### 3. 🏃To run 
 ``` bash
 if __name__ == "__main__":
     uvicorn.run("server:app", host='localhost' , port = 8000 , reload = True)
@@ -47,7 +39,15 @@ if __name__ == "__main__":
 - And here 'localhost' is used there is an alternative host **127.0.0.1** which can be used to run the fastpi application.
 </br>
 
-# Client.py 
+# ⚙️Server.py 
+- Adding routes with the use of langserve
+  ``` bash
+  add_routes(
+    app,
+    ChatOpenAI(),
+    path  = "/openai")
+  ```
+# 👩‍💻Client.py 
 - used the **requests** function to get the data from the **server side**
 ``` bash
 def get_eassy(text_input):
