@@ -9,7 +9,7 @@ import uvicorn
 from langchain_openai import ChatOpenAI
 
 
-load_dotenv(dotenv_path=r"C:\Users\data\OneDrive\Desktop\study\practical world projects\python_projects\langchain_api\api.env")
+load_dotenv(dotenv_path=r"api.env")  #your own path
 
 os.environ['OPENAI_API_KEY'] = os.getenv("openai_api")
 
