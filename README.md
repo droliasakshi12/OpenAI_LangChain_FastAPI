@@ -55,8 +55,9 @@ def get_eassy(text_input):
                              json = {'input':{'topic':text_input}})
 ```
 - **POST** Method is used to give the input at the **URl:** ***"http://localhost:8000/eassy/invoke"***  sepcified.
-- Made the use of json to get the data.
+- Made the use of **json** to get the data.
 
+<br>
 ### 🙌Acknowledgement
 Built with FastAPI — a modern, fast (high-performance) web framework for API development in Python.
 
