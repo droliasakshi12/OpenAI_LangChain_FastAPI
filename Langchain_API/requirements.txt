@@ -1,9 +1,8 @@
 fastapi 
-langchain_groq 
-langchain_core 
 python-dotenv 
 langserve
 uvicorn 
 langchain-openai
 requests 
 streamlit 
+
